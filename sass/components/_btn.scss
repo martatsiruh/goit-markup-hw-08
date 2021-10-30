@@ -1,0 +1,18 @@
+.btn {
+    padding: 10px 32px;
+    @include font(normal, 16px, 700, 1.87, 0.06em);
+    color: $white-text-color;
+    background-color: $accent-text-color;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;   
+    cursor: pointer;
+        &:hover,
+        &:focus {
+        background-color: #188CE8;
+        animation-play-state: paused;
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    @include widht-height-100-percent;
+    z-index: 1;
+    opacity: 1;
+    overflow-y: scroll;
+    transition: opacity $primary-transition;
+    background-color: rgba(0, 0, 0, 0.2);
+    @media screen and(max-width:767px) {
+        padding-top: 8px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    @media screen and(min-width:768px) {
+        padding-top: 20px;
+    }
+    @media screen and(min-width:1200px) {
+        padding-top: 208px;
+    }
+}
