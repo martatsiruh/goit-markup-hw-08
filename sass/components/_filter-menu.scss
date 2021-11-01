@@ -22,6 +22,18 @@
             margin-right: 0px;
         }
     }
+    @media screen and(max-width:391px) {
+        &:nth-child(2) {
+            margin-right: 0px;
+        }
+        &:nth-child(3) {
+            margin-right: 8px;
+        }
+        &:nth-child(4) {
+            margin-bottom: 15px;
+            margin-right: 0px;
+        }
+    }
 }
 
 .filter__btn {

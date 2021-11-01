@@ -1216,6 +1216,19 @@ img {
   }
 }
 
+@media screen and (max-width: 391px) {
+  .filter__item:nth-child(2) {
+    margin-right: 0px;
+  }
+  .filter__item:nth-child(3) {
+    margin-right: 8px;
+  }
+  .filter__item:nth-child(4) {
+    margin-bottom: 15px;
+    margin-right: 0px;
+  }
+}
+
 .filter__btn {
   padding: 6px 22px;
   font-style: normal;
