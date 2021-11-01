@@ -22,6 +22,10 @@
         justify-content: space-around;
         flex-direction: row;
     }
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+    }
+        
 }
 
 .footer__site-contact {   
@@ -65,7 +69,6 @@
 .footer__social-media {
     @media screen and (min-width: 1200px) {
         margin-left: 70px;
-        margin-right: 93px;
     }
     @media screen and (max-width: 767px) {
         margin-top: 60px;

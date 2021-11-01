@@ -18,6 +18,9 @@
         &:nth-last-child(-n + 2) {
             margin-bottom: 0px;
         }
+        &:nth-child(3) {
+            margin-right: 0px;
+        }
     }
 }
 

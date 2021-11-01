@@ -789,6 +789,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    margin-right: 93px;
+  }
+}
+
 .logo__text--white {
   margin-right: 0;
   color: #ffffff;
@@ -823,7 +829,6 @@ img {
 @media screen and (min-width: 1200px) {
   .footer__social-media {
     margin-left: 70px;
-    margin-right: 93px;
   }
 }
 
@@ -1205,6 +1210,9 @@ img {
   }
   .filter__item:nth-last-child(-n + 2) {
     margin-bottom: 0px;
+  }
+  .filter__item:nth-child(3) {
+    margin-right: 0px;
   }
 }
 
